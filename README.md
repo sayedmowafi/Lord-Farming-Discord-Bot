@@ -5,29 +5,29 @@ A Discord bot for organizing **Marvel Rivals** Lord Farming sessions with automa
 ## Features
 
 ### Host Management
-- **Session Creation** — Join a designated voice channel to create a new farming session
-- **Custom Formations** — Configure team compositions (2-2-2, 3-3-6, or custom)
-- **Session Controls** — Lock/unlock sessions, start/stop farming, end sessions
-- **Warning System** — Issue manual warnings to players for rule violations
+- **Session Creation** - Join a designated voice channel to create a new farming session
+- **Custom Formations** - Configure team compositions (2-2-2, 3-3-6, or custom)
+- **Session Controls** - Lock/unlock sessions, start/stop farming, end sessions
+- **Warning System** - Issue manual warnings to players for rule violations
 
 ### Player Experience  
-- **Role Verification** — Link your in-game name (IGN) and select available roles
-- **Smart Queueing** — Join role-specific voice channels for automatic team matching
-- **Character Selection** — Choose your character via DM with conflict detection
-- **Flex Support** — Queue as flex to fill any needed role
+- **Role Verification** - Link your in-game name (IGN) and select available roles
+- **Smart Queueing** - Join role-specific voice channels for automatic team matching
+- **Character Selection** - Choose your character via DM with conflict detection
+- **Flex Support** - Queue as flex to fill any needed role
 
 ### Automated Systems
-- **Intelligent Matchmaking** — Auto-fill teams based on formation requirements using FIFO priority
-- **Voice Management** — Automatic voice channel creation and player movement
-- **Grace Period Warnings** — 3-minute grace period before issuing warnings for leaving team VC
-- **Status Updates** — Real-time team status and missing role announcements
+- **Intelligent Matchmaking** - Auto-fill teams based on formation requirements using FIFO priority
+- **Voice Management** - Automatic voice channel creation and player movement
+- **Grace Period Warnings** - 3-minute grace period before issuing warnings for leaving team VC
+- **Status Updates** - Real-time team status and missing role announcements
 
 ## Tech Stack
 
 - **Python 3.8+**
-- **discord.py** — Discord API wrapper
-- **aiosqlite** — Async SQLite database operations
-- **python-dotenv** — Environment variable management
+- **discord.py** - Discord API wrapper
+- **aiosqlite** - Async SQLite database operations
+- **python-dotenv** - Environment variable management
 
 ## Project Structure
 
@@ -100,8 +100,8 @@ python run.py
 | Announcements | Text | Bot posts missing role notifications |
 
 ### Required Roles
-- **Verified** — Assigned to players who complete `/verify`
-- **Lord Farming** — Mentioned when teams need players
+- **Verified** - Assigned to players who complete `/verify`
+- **Lord Farming** - Mentioned when teams need players
 
 ### Bot Permissions
 - Manage Channels
@@ -159,8 +159,8 @@ python run.py
 5. **Bot DMs players** for character selection
 6. **Matchmaking engine** assigns players to teams based on formation
 7. **Players moved** to session voice channel automatically
-8. **Host starts farming** — warning system activates
-9. **Session ends** — cleanup and data reset
+8. **Host starts farming** - warning system activates
+9. **Session ends** - cleanup and data reset
 
 ### Warning System
 - Players who leave their team voice channel during active farming receive a warning after a **3-minute grace period**
@@ -174,4 +174,4 @@ python run.py
 
 ## License
 
-MIT License — Feel free to use and modify for your own Discord servers.
+MIT License - Feel free to use and modify for your own Discord servers.
