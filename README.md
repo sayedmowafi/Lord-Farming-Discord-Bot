@@ -2,6 +2,10 @@
 
 A Discord bot for organizing **Marvel Rivals** Lord Farming sessions with automatic matchmaking, team formation management, and an integrated warning system.
 
+## Demo
+
+![Demo](demo-discord-bot.gif)
+
 ## Features
 
 ### Host Management
