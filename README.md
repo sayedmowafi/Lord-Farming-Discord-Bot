@@ -50,8 +50,8 @@ lord-farming-bot/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/lord-farming-bot.git
-cd lord-farming-bot
+git clone https://github.com/sayedmowafi/Lord-Farming-Discord-Bot.git
+cd Lord-Farming-Discord-Bot
 ```
 
 ### 2. Install Dependencies
