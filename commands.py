@@ -89,7 +89,7 @@ class LordFarmingCommands(commands.Cog):
             embed = discord.Embed(
                 title="No Active Session",
                 description="There's no active Lord Farming session right now.",
-                color=discord.Color.grey()
+                color=discord.Color.dark_grey()
             )
             await interaction.response.send_message(embed=embed, ephemeral=True)
             return
@@ -363,7 +363,7 @@ class LordFarmingCommands(commands.Cog):
         embed = discord.Embed(
             title="🗑️ Profile Unlinked",
             description="Your profile has been unlinked. Use `/verify` if you want to link again.",
-            color=discord.Color.grey()
+            color=discord.Color.dark_grey()
         )
         await interaction.response.send_message(embed=embed, ephemeral=True)
     
@@ -373,7 +373,7 @@ class LordFarmingCommands(commands.Cog):
             embed = discord.Embed(
                 title="📋 Global Queue",
                 description="No players currently waiting in queue.",
-                color=discord.Color.grey()
+                color=discord.Color.dark_grey()
             )
             await interaction.response.send_message(embed=embed, ephemeral=True)
             return
@@ -384,7 +384,7 @@ class LordFarmingCommands(commands.Cog):
             embed = discord.Embed(
                 title="📋 Global Queue", 
                 description="No players currently waiting in queue.",
-                color=discord.Color.grey()
+                color=discord.Color.dark_grey()
             )
             await interaction.response.send_message(embed=embed, ephemeral=True)
             return
@@ -501,7 +501,7 @@ class LordFarmingCommands(commands.Cog):
             embed = discord.Embed(
                 title="📋 Active Sessions",
                 description="No active sessions found.",
-                color=discord.Color.grey()
+                color=discord.Color.dark_grey()
             )
             await interaction.response.send_message(embed=embed, ephemeral=True)
             return

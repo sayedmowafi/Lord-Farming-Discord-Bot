@@ -479,7 +479,7 @@ class ConfirmationView(discord.ui.View):
             embed = discord.Embed(
                 title="Cancelled",
                 description="Operation cancelled.",
-                color=discord.Color.grey()
+                color=discord.Color.dark_grey()
             )
             await interaction.response.send_message(embed=embed, ephemeral=True)
 
