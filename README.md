@@ -178,4 +178,22 @@ python run.py
 
 ## License
 
-MIT License - Feel free to use and modify for your own Discord servers.
+This project is licensed under a custom non-commercial license.
+
+**You are free to:**
+- Share - copy and redistribute the material in any medium or format
+- Adapt - remix, transform, and build upon the material
+
+**Under the following terms:**
+- **Attribution** - You must give appropriate credit
+- **NonCommercial** - You may not use the material for commercial purposes
+
+**For commercial use or licensing inquiries, please contact the author at: sayed@sayedmowafi.dev**
+
+## Disclaimer
+
+This software is provided for educational and personal use only. The author is not responsible for any misuse or damages arising from the use of this software.
+
+## Author
+
+**Sayed Mowafi** - [Portfolio](https://sayedmowafi.dev) | [GitHub](https://github.com/sayedmowafi)
